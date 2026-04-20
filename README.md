@@ -1,16 +1,121 @@
-# React + Vite
+🎓 Student Report Card (React Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Overview
 
-Currently, two official plugins are available:
+This is a simple React-based web application that manages student records.
+It allows users to add students, update their marks, and view their pass/fail status dynamically.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📋 Pre-filled student data displayed on UI
+- ➕ Add new student (Name & Marks)
+- ✏️ Update marks in real-time
+- 🎯 Automatic Pass/Fail status
+  - Pass → Marks ≥ 40
+  - Fail → Marks < 40
+- 🎨 Color indication
+  - Green → Pass
+  - Red → Fail
+- 📊 Summary section:
+  - Total students
+  - Average marks
+  - Passed students
+  - Failed students
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6)
+- CSS (Custom Styling)
+- Vite
+
+---
+
+📁 Project Structure
+
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── StudentTable.jsx
+│   ├── StudentRow.jsx
+│   ├── AddStudentForm.jsx
+│   └── Summary.jsx
+│
+├── App.jsx
+├── App.css
+└── main.jsx
+
+---
+
+⚙️ Installation & Setup
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/student-report-card.git
+
+2. Navigate to project folder:
+
+cd student-report-card
+
+3. Install dependencies:
+
+npm install
+
+4. Run the project:
+
+npm run dev
+
+---
+
+🧠 Concepts Used
+
+- React Components
+- useState Hook
+- Props
+- Event Handling
+- Conditional Rendering
+- List Rendering using map()
+
+---
+
+🎯 Learning Outcome
+
+Through this project, I learned how to:
+
+- Manage state in React
+- Build reusable components
+- Handle user input using forms
+- Dynamically update UI
+- Structure a React project properly
+
+---
+
+📸 Output
+
+(Add screenshots of your project here)
+
+---
+
+📌 Future Improvements
+
+- 🔍 Search student feature
+- 🏆 Highlight top scorer
+- ❌ Delete student option
+- 📱 Responsive design
+
+---
+
+🙌 Author
+
+Your Name
+
+---
+
+⭐ GitHub
+
+If you like this project, consider giving it a star ⭐
